@@ -1,0 +1,29 @@
+type = layout
+name = Geary Full
+version = BACKDROP_VERSION
+backdrop = 1.x
+
+; Specify regions for this layout.
+regions[header]     = Header
+regions[top]        = Top
+regions[content]    = Content
+regions[third1]     = First Column
+regions[third2]     = Second Column
+regions[third3]     = Third Column
+regions[bottom]     = Bottom
+regions[footer]     = Footer
+
+; The default region automatically receives the "Main Content" block if needed.
+default region = third2
+
+; Include a file for special preprocessing of this layout's variables.
+; file = geary_full.php
+
+; Default stylesheets for this layout
+; stylesheets[all][] = geary_full.css
+
+; Preview
+preview = geary_full.png
+
+; Include the Bootstrap4 Grid System
+libraries[] = bootstrap4-gs
