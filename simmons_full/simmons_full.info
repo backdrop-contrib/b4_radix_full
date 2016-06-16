@@ -1,6 +1,6 @@
 type = layout
 name = Simmons Full
-version = BACKDROP_VERSION
+version = 1.4.1
 backdrop = 1.x
 
 ; Specify regions for this layout.

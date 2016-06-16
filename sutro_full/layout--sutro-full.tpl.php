@@ -25,11 +25,6 @@
  *
  */
 ?>
-<div class="layout--sutro-full <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
-  </div>
-
   <?php if ($content['header']): ?>
     <header class="l-header" role="banner" aria-label="<?php print t('Site header'); ?>">
       <div class="container container-fluid l-header-inner">
@@ -37,6 +32,11 @@
       </div>
     </header>
   <?php endif; ?>
+
+<div class="layout--sutro-full <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
+  </div>
 
   <div class="l-wrapper">
     <div class="l-wrapper-inner">

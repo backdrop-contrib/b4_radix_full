@@ -25,6 +25,8 @@ You probably don't need this if you are happy with site building in Backdrop 1.4
 
 You like the layouts in core Backdrop 1.4+ for building your website.  BUT, as a themer/designer, you would like extra CSS classes, wrappers, and containers to help style your page a certain way.  They are based on Bootstrap 4 and output markup/classes such as "container", "l-thirds", etc...  This module will help you use something like the core layouts, only with extra stuff to help themers out.
 
+This set of layouts works together with the themes: zurb_foundation_6, summer_fun, news_arrow, materialize, gdi_tribute, and afterlight_tribute to provide easy theme settings to change site width or page width based on layout.  If there are other compatible themes, it will work with them on this feature as well.
+
 TESTED
 -----
 
@@ -48,7 +50,7 @@ Install this module using the official Backdrop CMS instructions at https://back
 COMING FROM DRUPAL?
 -------------------
 
-This module is not a port from Drupal, but is a Views Plugin
+This module is a set of layouts based on the Twitter Bootstrap 4 grid.
 
 PERMISSIONS
 ------------
