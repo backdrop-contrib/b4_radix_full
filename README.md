@@ -21,11 +21,11 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-You probably don't need this if you are happy with site building in Backdrop 1.4+.  This is an edge case.
+You probably don't need this if you are happy with site building in Backdrop 1.4+. This is an edge case.
 
-You like the layouts in core Backdrop 1.4+ for building your website.  BUT, as a themer/designer, you would like extra CSS classes, wrappers, and containers to help style your page a certain way.  They are based on Bootstrap 4 and output markup/classes such as "container", "l-thirds", etc...  This module will help you use something like the core layouts, only with extra stuff to help themers out.
+You like the layouts in core Backdrop 1.4+ for building your website, BUT, as a themer/designer, you would like extra CSS classes, wrappers, and containers to help style your page a certain way. They are based on Bootstrap 4 and output markup/classes such as `container`, `l-thirds`, etc...  This package will help you use something similar to the core layouts, only with extra stuff to help themers out.
 
-This set of layouts works together with the themes: zurb_foundation_6, summer_fun, news_arrow, materialize, gdi_tribute, and afterlight_tribute to provide easy theme settings to change site width or page width based on layout.  If there are other compatible themes, it will work with them on this feature as well.
+This set of layouts works together with the themes: zurb_foundation_6, summer_fun, news_arrow, materialize, gdi_tribute, and afterlight_tribute to provide easy theme settings to change site width or page width based on layout. If there are other compatible themes, it will work with them on this feature as well.
 
 TESTED
 -----
@@ -45,12 +45,12 @@ REQUIREMENTS
 INSTALLATION
 ------------
 
-Install this module using the official Backdrop CMS instructions at https://backdropcms.org/guide/modules
+Install this package using the official Backdrop CMS instructions at https://backdropcms.org/guide/layouts
 
 COMING FROM DRUPAL?
 -------------------
 
-This module is a set of layouts based on the Twitter Bootstrap 4 grid.
+This package is a set of layouts based on the Twitter Bootstrap 4 grid.
 
 PERMISSIONS
 ------------
@@ -59,7 +59,7 @@ PERMISSIONS
 USAGE
 -----
 
-Install the module and choose a layout from this package.
+After installation, the layout templates included with this package will be available to choose for your layouts.
 
 
 LICENSE
